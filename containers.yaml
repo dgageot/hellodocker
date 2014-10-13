@@ -1,0 +1,8 @@
+version: v1beta1
+containers:
+  - name: helloworld
+    image: dgageot/hello:v3
+    ports:
+      - name: http
+        hostPort: 80
+        containerPort: 8080
